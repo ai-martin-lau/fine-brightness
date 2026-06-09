@@ -16,3 +16,7 @@ Download `fine-brightness.dmg` from the Releases page.
 2. Drag `亮度细调.app` (Fine Brightness) into Applications.
 
 The first time you open it, if macOS says it can't verify the developer, right-click the app and choose "Open".
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ai-martin-lau/fine-brightness&type=Date)](https://star-history.com/#ai-martin-lau/fine-brightness&Date)
