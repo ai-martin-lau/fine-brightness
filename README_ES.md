@@ -16,3 +16,7 @@ Descarga `fine-brightness.dmg` desde la página de Releases.
 2. Arrastra `亮度细调.app` (Ajuste fino de brillo) a Applications.
 
 La primera vez que la abras, si macOS indica que no puede verificar al desarrollador, haz clic derecho sobre la app y selecciona "Abrir".
+
+## Historial de estrellas
+
+[![Gráfico de historial de estrellas](https://api.star-history.com/svg?repos=ai-martin-lau/fine-brightness&type=Date)](https://star-history.com/#ai-martin-lau/fine-brightness&Date)
