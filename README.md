@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="README.md">简体中文</a> · <a href="README_EN.md">English</a> · <a href="README_JA.md">日本語</a> · <a href="README_KO.md">한국어</a> · <a href="README_ES.md">Español</a>
+</p>
+
 # 亮度细调
 
 macOS 亮度细调工具，支持 1% 亮度增减。
