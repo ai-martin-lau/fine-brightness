@@ -8,9 +8,7 @@
 
 ## ダウンロード
 
-最新バージョンは [Releases ページ](https://github.com/ai-martin-lau/fine-brightness/releases/latest) からダウンロードできます。
-
-直接ダウンロード: [`fine-brightness.dmg`](https://github.com/ai-martin-lau/fine-brightness/releases/latest/download/fine-brightness.dmg)
+最新バージョンをダウンロード: [`fine-brightness.dmg`](https://github.com/ai-martin-lau/fine-brightness/releases/latest/download/fine-brightness.dmg)
 
 ## インストール
 

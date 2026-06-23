@@ -12,9 +12,7 @@ A macOS brightness fine-tuning tool that supports adjusting brightness in 1% inc
 
 ## Download
 
-Download the latest version from the [Releases page](https://github.com/ai-martin-lau/fine-brightness/releases/latest).
-
-Direct download: [`fine-brightness.dmg`](https://github.com/ai-martin-lau/fine-brightness/releases/latest/download/fine-brightness.dmg)
+Download the latest version: [`fine-brightness.dmg`](https://github.com/ai-martin-lau/fine-brightness/releases/latest/download/fine-brightness.dmg)
 
 ## Installation
 

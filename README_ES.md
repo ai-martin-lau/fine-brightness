@@ -8,9 +8,7 @@ Herramienta de ajuste fino de brillo para macOS, compatible con incrementos de b
 
 ## Descarga
 
-Descarga la última versión desde la [página de Releases](https://github.com/ai-martin-lau/fine-brightness/releases/latest).
-
-Descarga directa: [`fine-brightness.dmg`](https://github.com/ai-martin-lau/fine-brightness/releases/latest/download/fine-brightness.dmg)
+Descarga la última versión: [`fine-brightness.dmg`](https://github.com/ai-martin-lau/fine-brightness/releases/latest/download/fine-brightness.dmg)
 
 ## Instalación
 
