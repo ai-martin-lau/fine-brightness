@@ -8,7 +8,9 @@ Fine Brightness 是一个 macOS 亮度细调工具，支持 1% 亮度增减。
 
 ## 下载
 
-请到 Releases 下载 `fine-brightness.dmg`。
+请从 [Releases 页面](https://github.com/ai-martin-lau/fine-brightness/releases/latest)下载最新版本。
+
+直接下载：[`fine-brightness.dmg`](https://github.com/ai-martin-lau/fine-brightness/releases/latest/download/fine-brightness.dmg)
 
 ## 安装
 
