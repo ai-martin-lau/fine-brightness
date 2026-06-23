@@ -17,7 +17,7 @@ Download `fine-brightness.dmg` from the Releases page.
 ## Installation
 
 1. Open the DMG.
-2. Drag `亮度细调.app` (Fine Brightness) into Applications.
+2. Drag `Fine Brightness.app` into Applications.
 
 The first time you open it, if macOS says it can't verify the developer, right-click the app and choose "Open".
 
