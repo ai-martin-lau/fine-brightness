@@ -29,6 +29,10 @@ Requires Xcode Command Line Tools:
 zsh scripts/build-fine-brightness.sh
 ```
 
+## License
+
+[MIT](LICENSE)
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=ai-martin-lau/fine-brightness&type=Date)](https://star-history.com/#ai-martin-lau/fine-brightness&Date)

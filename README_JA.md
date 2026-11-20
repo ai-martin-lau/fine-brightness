@@ -25,6 +25,10 @@ Xcode Command Line Tools が必要です：
 zsh scripts/build-fine-brightness.sh
 ```
 
+## ライセンス
+
+[MIT](LICENSE)
+
 ## スター推移
 
 [![スター推移グラフ](https://api.star-history.com/svg?repos=ai-martin-lau/fine-brightness&type=Date)](https://star-history.com/#ai-martin-lau/fine-brightness&Date)

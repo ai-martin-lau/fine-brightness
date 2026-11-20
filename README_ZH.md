@@ -25,6 +25,10 @@ Fine Brightness 是一个 macOS 亮度细调工具，支持 1% 亮度增减。
 zsh scripts/build-fine-brightness.sh
 ```
 
+## 许可证
+
+[MIT](LICENSE)
+
 ## Star 趋势
 
 [![Star 趋势图](https://api.star-history.com/svg?repos=ai-martin-lau/fine-brightness&type=Date)](https://star-history.com/#ai-martin-lau/fine-brightness&Date)

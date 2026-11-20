@@ -25,6 +25,10 @@ Xcode Command Line Tools가 필요합니다:
 zsh scripts/build-fine-brightness.sh
 ```
 
+## 라이선스
+
+[MIT](LICENSE)
+
 ## 스타 히스토리
 
 [![스타 히스토리 차트](https://api.star-history.com/svg?repos=ai-martin-lau/fine-brightness&type=Date)](https://star-history.com/#ai-martin-lau/fine-brightness&Date)
