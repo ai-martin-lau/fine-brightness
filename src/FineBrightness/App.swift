@@ -163,9 +163,25 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     }
 
     private func configureStatusItem() {
+        // New status items are added on the far left, the first place macOS hides
+        // them when the menu bar is crowded. On first launch, start next to the
+        // system items instead; after that, wherever the user drags it is kept.
+        let positionKey = "NSStatusItem Preferred Position FineBrightnessStatusItem"
+        if UserDefaults.standard.object(forKey: positionKey) == nil {
+            UserDefaults.standard.set(330.0, forKey: positionKey)
+        }
+
         let item = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
+        item.autosaveName = "FineBrightnessStatusItem"
         if let button = item.button {
-            button.title = brightnessLabel
+            // Keep the item narrow so it still fits on crowded menu bars
+            // next to the notch: a sun icon plus the percentage.
+            let config = NSImage.SymbolConfiguration(pointSize: 12, weight: .regular)
+            button.image = NSImage(systemSymbolName: "sun.max", accessibilityDescription: brightnessLabel)?
+                .withSymbolConfiguration(config)
+            button.imagePosition = .imageLeading
+            button.imageHugsTitle = true
+            button.title = "--%"
             button.toolTip = appName
         }
 
@@ -414,7 +430,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         menuPercentLabel.stringValue = "\(percent)%"
         windowPercentLabel.stringValue = "\(percent)%"
         headerItem.title = "\(brightnessLabel) \(percent)%"
-        statusItem?.button?.title = "\(brightnessLabel) \(percent)%"
+        statusItem?.button?.title = "\(percent)%"
         statusItem?.button?.toolTip = "\(appName) \(percent)%"
         isUpdatingControls = false
     }
@@ -427,7 +443,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         menuPercentLabel.stringValue = "--%"
         windowPercentLabel.stringValue = "--%"
         headerItem.title = L("Unable to read display brightness", "无法读取屏幕亮度")
-        statusItem?.button?.title = "\(brightnessLabel) --%"
+        statusItem?.button?.title = "--%"
         statusItem?.button?.toolTip = "\(appName): " + L("Unable to read brightness", "无法读取亮度")
         isUpdatingControls = false
         NSSound.beep()
