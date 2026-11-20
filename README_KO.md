@@ -17,6 +17,14 @@
 
 처음 실행할 때 macOS에서 개발자를 확인할 수 없다는 메시지가 표시되면, App을 마우스 오른쪽 버튼으로 클릭한 뒤 "열기"를 선택하세요.
 
+## 소스에서 빌드
+
+Xcode Command Line Tools가 필요합니다:
+
+```sh
+zsh scripts/build-fine-brightness.sh
+```
+
 ## 스타 히스토리
 
 [![스타 히스토리 차트](https://api.star-history.com/svg?repos=ai-martin-lau/fine-brightness&type=Date)](https://star-history.com/#ai-martin-lau/fine-brightness&Date)

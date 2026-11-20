@@ -17,6 +17,14 @@
 
 初回起動時に、開発元を確認できないと macOS に表示された場合は、App を右クリックして「開く」を選択してください。
 
+## ソースからビルド
+
+Xcode Command Line Tools が必要です：
+
+```sh
+zsh scripts/build-fine-brightness.sh
+```
+
 ## スター推移
 
 [![スター推移グラフ](https://api.star-history.com/svg?repos=ai-martin-lau/fine-brightness&type=Date)](https://star-history.com/#ai-martin-lau/fine-brightness&Date)

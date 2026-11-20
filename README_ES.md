@@ -17,6 +17,14 @@ Descarga la última versión: [`fine-brightness.dmg`](https://github.com/ai-mart
 
 La primera vez que la abras, si macOS indica que no puede verificar al desarrollador, haz clic derecho sobre la app y selecciona "Abrir".
 
+## Compilar desde el código fuente
+
+Requiere Xcode Command Line Tools:
+
+```sh
+zsh scripts/build-fine-brightness.sh
+```
+
 ## Historial de estrellas
 
 [![Gráfico de historial de estrellas](https://api.star-history.com/svg?repos=ai-martin-lau/fine-brightness&type=Date)](https://star-history.com/#ai-martin-lau/fine-brightness&Date)

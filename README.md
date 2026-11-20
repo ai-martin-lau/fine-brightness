@@ -21,6 +21,14 @@ Download the latest version: [`fine-brightness.dmg`](https://github.com/ai-marti
 
 The first time you open it, if macOS says it can't verify the developer, right-click the app and choose "Open".
 
+## Build from source
+
+Requires Xcode Command Line Tools:
+
+```sh
+zsh scripts/build-fine-brightness.sh
+```
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=ai-martin-lau/fine-brightness&type=Date)](https://star-history.com/#ai-martin-lau/fine-brightness&Date)
